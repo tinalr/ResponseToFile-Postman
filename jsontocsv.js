@@ -2,6 +2,7 @@ const jsonStr = pm.response.text()
 const jsonObj = JSON.parse(jsonStr)
 const obj = jsonObj.result
 
+//The following function came from https://codingbeautydev.com/blog/javascript-convert-json-to-csv/
 function jsonToCsv(items) {
     const header = Object.keys(items[0]);
   
@@ -25,7 +26,7 @@ function jsonToCsv(items) {
   const csv = jsonToCsv(obj);
   console.log(csv);
 
-  // Please read the documentation https://github.com/sivcan/ResponseToFile-Postman
+// Please read the documentation https://github.com/sivcan/ResponseToFile-Postman
 // The opts for the server, also includes the data to be written to file
 let opts = {
     requestName: request.name || request.url,
