@@ -4,7 +4,7 @@ let opts = {
 	requestName: request.name || request.url,
 	fileExtension: "csv",
 	mode: "writeFile", // Change this to any function of the fs library of node to use it.
-	uniqueIdentifier: true,
+	uniqueIdentifier: false,
 	responseData: csv
 };
 
