@@ -1,3 +1,4 @@
+//Run this script to start the local server
 const express = require('express'),
   app = express(),
   fs = require('fs'),
