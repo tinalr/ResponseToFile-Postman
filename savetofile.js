@@ -1,3 +1,5 @@
+//SCRIPT TO BE USED IN TESTS IN POSTMAN REQUESTS
+
 // Please read the documentation https://github.com/sivcan/ResponseToFile-Postman
 // The opts for the server, also includes the data to be written to file
 let opts = {
